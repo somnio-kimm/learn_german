@@ -46,6 +46,10 @@ dist/
 .parcel-cache/
 coverage/
 
+# Generated data build stages (web/data is the runtime artifact and is checked in)
+data/_built/
+data/_merged/
+
 # Capacitor / native builds
 mobile/android/.gradle/
 mobile/android/.idea/
