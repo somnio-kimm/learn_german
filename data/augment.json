@@ -1,0 +1,4 @@
+{
+  "schema_version": 1,
+  "notes": "Top-level overrides. Per-POS arrays live in data/augment/parts/<pos>/*.json."
+}
