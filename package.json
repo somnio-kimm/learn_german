@@ -1,0 +1,14 @@
+{
+  "name": "learn-german-tools",
+  "private": true,
+  "type": "module",
+  "description": "Dev scripts for building CEFR-leveled German vocabulary data.",
+  "scripts": {
+    "build:cefr": "node scripts/build-cefr-data.mjs",
+    "merge:augment": "node scripts/merge-augment.mjs",
+    "sync:web-data": "node scripts/sync-web-data.mjs",
+    "build:cefr:web": "npm run build:cefr && npm run merge:augment && npm run sync:web-data",
+    "mobile:sync": "npm run build:cefr:web && cd mobile && npm run sync"
+  },
+  "dependencies": {}
+}
