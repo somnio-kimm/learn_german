@@ -1,0 +1,46 @@
+[
+  {
+    "lemma": "groß",
+    "pos": "adjective",
+    "cefr": "A1",
+    "meaning_en": [
+      "big",
+      "tall"
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist groß.",
+        "en": "The house is big."
+      }
+    ],
+    "frequency_rank": 88,
+    "notes": null,
+    "source": "manual-augment",
+    "comparative": "größer",
+    "superlative": "am größten",
+    "predicative_only": false,
+    "declension_notes": null
+  },
+  {
+    "lemma": "klein",
+    "pos": "adjective",
+    "cefr": "A1",
+    "meaning_en": [
+      "small",
+      "little"
+    ],
+    "examples": [
+      {
+        "de": "Der Hund ist klein.",
+        "en": "The dog is small."
+      }
+    ],
+    "frequency_rank": 145,
+    "notes": null,
+    "source": "manual-augment",
+    "comparative": "kleiner",
+    "superlative": "am kleinsten",
+    "predicative_only": false,
+    "declension_notes": null
+  }
+]

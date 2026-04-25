@@ -1,0 +1,119 @@
+[
+  {
+    "lemma": "Haus",
+    "pos": "noun",
+    "cefr": "A1",
+    "meaning_en": [
+      "house",
+      "home"
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist groß.",
+        "en": "The house is big."
+      }
+    ],
+    "frequency_rank": 134,
+    "notes": null,
+    "source": "manual-augment",
+    "article": "das",
+    "gender": "neuter",
+    "plural": "Häuser",
+    "declension": {
+      "nom": [
+        "das Haus",
+        "die Häuser"
+      ],
+      "acc": [
+        "das Haus",
+        "die Häuser"
+      ],
+      "dat": [
+        "dem Haus(e)",
+        "den Häusern"
+      ],
+      "gen": [
+        "des Hauses",
+        "der Häuser"
+      ]
+    }
+  },
+  {
+    "lemma": "Frau",
+    "pos": "noun",
+    "cefr": "A1",
+    "meaning_en": [
+      "woman",
+      "Mrs."
+    ],
+    "examples": [
+      {
+        "de": "Die Frau heißt Anna.",
+        "en": "The woman's name is Anna."
+      }
+    ],
+    "frequency_rank": 211,
+    "notes": null,
+    "source": "manual-augment",
+    "article": "die",
+    "gender": "feminine",
+    "plural": "Frauen",
+    "declension": {
+      "nom": [
+        "die Frau",
+        "die Frauen"
+      ],
+      "acc": [
+        "die Frau",
+        "die Frauen"
+      ],
+      "dat": [
+        "der Frau",
+        "den Frauen"
+      ],
+      "gen": [
+        "der Frau",
+        "der Frauen"
+      ]
+    }
+  },
+  {
+    "lemma": "Mann",
+    "pos": "noun",
+    "cefr": "A1",
+    "meaning_en": [
+      "man",
+      "husband"
+    ],
+    "examples": [
+      {
+        "de": "Der Mann ist müde.",
+        "en": "The man is tired."
+      }
+    ],
+    "frequency_rank": 198,
+    "notes": null,
+    "source": "manual-augment",
+    "article": "der",
+    "gender": "masculine",
+    "plural": "Männer",
+    "declension": {
+      "nom": [
+        "der Mann",
+        "die Männer"
+      ],
+      "acc": [
+        "den Mann",
+        "die Männer"
+      ],
+      "dat": [
+        "dem Mann(e)",
+        "den Männern"
+      ],
+      "gen": [
+        "des Mannes",
+        "der Männer"
+      ]
+    }
+  }
+]

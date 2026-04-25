@@ -1,0 +1,110 @@
+[
+  {
+    "lemma": "gehen",
+    "pos": "verb",
+    "cefr": "A1",
+    "meaning_en": [
+      "to go",
+      "to walk"
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe nach Hause.",
+        "en": "I'm going home."
+      }
+    ],
+    "frequency_rank": 42,
+    "notes": null,
+    "source": "manual-augment",
+    "infinitive": "gehen",
+    "class": "strong",
+    "separable_prefix": null,
+    "auxiliary": "sein",
+    "stems": {
+      "present": "geh",
+      "preterite": "ging",
+      "participle": "gegangen"
+    },
+    "forms": {
+      "praesens": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie": "gehen"
+      },
+      "praeteritum": {
+        "ich": "ging",
+        "du": "gingst",
+        "er": "ging",
+        "wir": "gingen",
+        "ihr": "gingt",
+        "sie": "gingen"
+      },
+      "perfekt": "ist gegangen",
+      "konjunktiv_ii": {
+        "ich": "ginge",
+        "du": "gingest",
+        "er": "ginge",
+        "wir": "gingen",
+        "ihr": "ginget",
+        "sie": "gingen"
+      }
+    }
+  },
+  {
+    "lemma": "machen",
+    "pos": "verb",
+    "cefr": "A1",
+    "meaning_en": [
+      "to do",
+      "to make"
+    ],
+    "examples": [
+      {
+        "de": "Was machst du?",
+        "en": "What are you doing?"
+      }
+    ],
+    "frequency_rank": 31,
+    "notes": null,
+    "source": "manual-augment",
+    "infinitive": "machen",
+    "class": "weak",
+    "separable_prefix": null,
+    "auxiliary": "haben",
+    "stems": {
+      "present": "mach",
+      "preterite": "machte",
+      "participle": "gemacht"
+    },
+    "forms": {
+      "praesens": {
+        "ich": "mache",
+        "du": "machst",
+        "er": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie": "machen"
+      },
+      "praeteritum": {
+        "ich": "machte",
+        "du": "machtest",
+        "er": "machte",
+        "wir": "machten",
+        "ihr": "machtet",
+        "sie": "machten"
+      },
+      "perfekt": "hat gemacht",
+      "konjunktiv_ii": {
+        "ich": "machte",
+        "du": "machtest",
+        "er": "machte",
+        "wir": "machten",
+        "ihr": "machtet",
+        "sie": "machten"
+      }
+    }
+  }
+]
