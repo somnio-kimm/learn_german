@@ -1,0 +1,50 @@
+[
+  {
+    "lemma": "in",
+    "pos": "functional",
+    "cefr": "A1",
+    "meaning_en": [
+      "in",
+      "into"
+    ],
+    "examples": [
+      {
+        "de": "Ich bin in der Schule.",
+        "en": "I'm at school."
+      },
+      {
+        "de": "Ich gehe in die Schule.",
+        "en": "I'm going to school."
+      }
+    ],
+    "frequency_rank": 7,
+    "notes": "Two-way preposition: dative for location, accusative for direction.",
+    "source": "manual-augment",
+    "subtype": "preposition",
+    "case": [
+      "dat",
+      "acc"
+    ],
+    "governs": null
+  },
+  {
+    "lemma": "und",
+    "pos": "functional",
+    "cefr": "A1",
+    "meaning_en": [
+      "and"
+    ],
+    "examples": [
+      {
+        "de": "Brot und Butter.",
+        "en": "Bread and butter."
+      }
+    ],
+    "frequency_rank": 4,
+    "notes": "Coordinating conjunction; does not change word order.",
+    "source": "manual-augment",
+    "subtype": "conjunction",
+    "case": null,
+    "governs": "coordinating"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-04-25T12:07:50.144Z",
+  "levels": {
+    "A1": {
+      "adjectives": 2,
+      "functional": 2,
+      "nouns": 3,
+      "verbs": 2
+    },
+    "A2": {
+      "adjectives": 0,
+      "functional": 0,
+      "nouns": 0,
+      "verbs": 0
+    },
+    "B1": {
+      "adjectives": 0,
+      "functional": 0,
+      "nouns": 0,
+      "verbs": 0
+    },
+    "B2": {
+      "adjectives": 0,
+      "functional": 0,
+      "nouns": 0,
+      "verbs": 0
+    },
+    "C1": {
+      "adjectives": 0,
+      "functional": 0,
+      "nouns": 0,
+      "verbs": 0
+    },
+    "C2": {
+      "adjectives": 0,
+      "functional": 0,
+      "nouns": 0,
+      "verbs": 0
+    }
+  }
+}

@@ -1,0 +1,93 @@
+:root {
+  --bg: #1a1a1a;
+  --fg: #f4f4f4;
+  --muted: #888;
+  --card: #242424;
+  --accent: #ffd166;
+  --color-masculine: #4cc9f0;
+  --color-feminine: #ef476f;
+  --color-neuter: #06d6a0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; background: var(--bg); color: var(--fg); }
+body { display: flex; flex-direction: column; min-height: 100dvh; }
+
+header {
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #333;
+}
+header h1 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+nav#picker { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+nav#picker select {
+  background: var(--card);
+  color: var(--fg);
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+footer {
+  padding: 0.75rem 1.25rem;
+  border-top: 1px solid #333;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.card {
+  width: min(28rem, 100%);
+  min-height: 16rem;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+  user-select: none;
+  border-top: 6px solid transparent;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+.card.gender-masculine { border-top-color: var(--color-masculine); }
+.card.gender-feminine { border-top-color: var(--color-feminine); }
+.card.gender-neuter { border-top-color: var(--color-neuter); }
+
+.card .lemma { font-size: 2.25rem; font-weight: 600; line-height: 1.1; }
+.card .article { color: var(--muted); font-weight: 400; margin-right: 0.4rem; }
+.card .pos { color: var(--muted); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.card .meaning { font-size: 1.25rem; color: var(--accent); }
+.card .examples { color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
+.card .examples .de { color: var(--fg); }
+
+.controls {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+button.ctrl {
+  background: var(--card);
+  color: var(--fg);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  font: inherit;
+  cursor: pointer;
+}
+button.ctrl:hover { background: #333; }
+
+.empty { color: var(--muted); text-align: center; }
