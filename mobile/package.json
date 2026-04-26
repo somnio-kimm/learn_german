@@ -1,0 +1,21 @@
+{
+  "name": "learn-german-mobile",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Capacitor wrapper that ships the web/ codebase as iOS and Android apps.",
+  "scripts": {
+    "sync": "cap sync",
+    "open:ios": "cap open ios",
+    "open:android": "cap open android",
+    "add:ios": "cap add ios",
+    "add:android": "cap add android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
+  }
+}
