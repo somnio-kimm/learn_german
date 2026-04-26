@@ -1,0 +1,12 @@
+{
+  "appId": "com.somniokimm.learn_german",
+  "appName": "learn_german",
+  "webDir": "../web",
+  "bundledWebRuntime": false,
+  "ios": {
+    "scheme": "learn_german"
+  },
+  "android": {
+    "buildOptions": {}
+  }
+}
