@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "data/_built": true,
+    "data/_merged": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "data/_built": true,
+    "data/_merged": true,
+    "package-lock.json": true,
+    "mobile/package-lock.json": true
+  }
+}
